@@ -1,14 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary: #55188b;
+}
+
 html {
     background-color: #f1f5f9;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   
   body {
    
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
-    padding: 1rem;
+    max-width: 125ch;
+    padding: 2rem;
     line-height: 1.5;
   }
   
@@ -39,7 +46,7 @@ span{
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #ff9776;
+    background-color: var(--primary);
   }
 
 .nav-links {
@@ -90,8 +97,8 @@ span{
   }
 
   .dark {
-    background-color: #0d0950;
-    color: #fff;
+    background-color: #120f15;
+    color: rgb(216, 212, 212);
   }
   
   .dark .nav-links a {

@@ -1,0 +1,26 @@
+---
+const response = await fetch("https://dummyjson.com/products");
+const results = await response.json();
+// console.log(results)
+---
+<h2>Fetch API Call in Astro Component</h2>
+
+<div class="products">
+    {results.products.map((product) => <div>
+        <img width="300px" src={product.thumbnail}/> 
+        <h3>{product.title}</h3>
+        <p>{product.description}</p>
+        <p> $ {product.price}</p>
+        </div>)} 
+</div>
+    <style>
+        .products{
+            display:flex;
+            flex-wrap: wrap;
+            gap:1rem;
+
+        }
+        .products > div{
+            max-width: 320px;
+        }
+    </style>
