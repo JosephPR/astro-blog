@@ -1,8 +1,8 @@
 import rss from '@astrojs/rss';
 
 export const get = () => rss({
-  title: 'Astro Learner | Blog',
-  description: 'My journey learning Astro',
+  title: 'Joseph Reilly | Blog',
+  description: 'Artificial Intelligence and Development',
   site: 'https://astro-blog-josephpr.vercel.app/',
   items: import.meta.glob('./**/*.md'),
   customData: `<language>en-us</language>`,

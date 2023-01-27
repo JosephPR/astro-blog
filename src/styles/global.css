@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 :root {
-  --primary: #4c1d95;
+  --primary: #5815c1;
 }
 
 html {
@@ -127,14 +127,15 @@ gap:2rem;
   padding:30px;
   background-color: #fff;
   margin-bottom: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+
 }
 .post p {
   color:#120f15;
 }
 .post:hover{
   border: #120f15;
-  box-shadow: 2px 4px 6px 3px #ebe8ed;
-  background-color: rgb(249, 249, 249);
+  box-shadow: 4px 5px 7px 3px #ebe8ed;
 }
   
   @media screen and (min-width: 636px) {
@@ -165,5 +166,5 @@ gap:2rem;
     color: #fff;
   }
   .dark .post{
-    background-color: #d3d0d5;
+    background-color: #e2e2e2;
   }
