@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "5 Ways AI is Revolutionizing Marketing with HubSpot"
-pubDate: 2023-26-01
+pubDate: 2023-01-26
 description: 'AI is quickly becoming an integral part of modern marketing, and HubSpot is no exception.
  Here are five ways that AI is currently being integrated into HubSpot to help companies better engage with their prospects and customers.'
 author: 'Joseph Reilly'
