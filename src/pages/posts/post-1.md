@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'AI Integration with Hubspot'
+title: "5 Ways AI is Revolutionizing Marketing with HubSpot"
 pubDate: 2023-26-01
 description: 'AI is quickly becoming an integral part of modern marketing, and HubSpot is no exception.
- Here are five ways that AI is currently being integrated into HubSpot to help companies better engage with their prospects and customers'
+ Here are five ways that AI is currently being integrated into HubSpot to help companies better engage with their prospects and customers.'
 author: 'Joseph Reilly'
 image:
     url: 'https://www.mytechmag.com/wp-content/uploads/2021/07/things-to-know-when-considering-ai-integration-in-your-company-MTM-Blog.jpg' 

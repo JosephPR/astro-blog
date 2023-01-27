@@ -3,7 +3,7 @@ const { url, title, author, image, description,  pubDate} = Astro.props;
 console.log(Astro.props)
 ---
 <a href={url}><div class="post">
-    <img src={image} width="350px" />
+    <img src={image} width="100%" />
  <h2>{title}</h2> 
    <p>{description}</p>
     <em>{author}</em> - 

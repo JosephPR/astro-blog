@@ -4,10 +4,11 @@ const { platform, username } = Astro.props;
 ---
 <style>
     a {
-      padding: 0.5rem 1rem;
-      color: white;
-      background-color: #4c1d95;
+      padding: .5rem 1rem;
+      color: var(--primary);
       text-decoration: none;
+      border-radius: 50px;
+      font-size: 40px;
     }
   </style>
-<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+<a href={`https://www.${platform}.com/${username}`}><i class={`fa-brands fa-${platform}`}></i></a>
