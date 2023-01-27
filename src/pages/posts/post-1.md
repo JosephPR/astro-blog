@@ -12,7 +12,6 @@ tags: ["hubspot", "blogging", "ai", "marketing"]
 ---
 
 
-# AI Integration with Hubspot
 
 
 ## 1. Predictive Lead Scoring

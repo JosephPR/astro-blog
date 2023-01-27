@@ -1,5 +1,12 @@
 ---
-const { url, title, author, pubDate} = Astro.props;
+const { url, title, author, image, description,  pubDate} = Astro.props;
+console.log(Astro.props)
 ---
-
-<li><a href={url}>{title}</a> - {author} - <span>{pubDate}</span></li>
+<a href={url}><div class="post">
+    <img src={image} width="350px" />
+ <h2>{title}</h2> 
+   <p>{description}</p>
+    <em>{author}</em> - 
+    <span>{pubDate}</span>
+</div></a>
+<!-- <li><a href={url}>{title}</a> - {author} - <span>{pubDate}</span></li> -->
