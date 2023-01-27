@@ -37,6 +37,7 @@ span{
   color:rgb(121, 121, 121);
 }
 img{
+  aspect-ratio: 16/9;
 max-width: 100%;
 margin-bottom:30px;
 
@@ -52,7 +53,7 @@ a {
 .tags {
   display: flex; 
   flex-wrap: wrap; 
-  margin: 0 auto;  
+  margin: 1rem auto;  
 }
 
 .tag {
@@ -71,6 +72,8 @@ a {
   .nav-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
   }
   .hamburger {
     padding-right: 20px;
@@ -96,7 +99,6 @@ a {
   .nav-links a {
     display: block;
     text-align: center;
-    padding: 10px 0;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;

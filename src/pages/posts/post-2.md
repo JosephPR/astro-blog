@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Rails Photo App Tutorial
 author: Joseph Reilly
-description: "Today we will be building a simple Ruby on Rails application that allows you to store photos in Albums that you create. First things first, this article assumes you have basic knowledge of the Ruby language and that you are familiar with rails. I will go through the steps of creating an application in Rails but will not be explaining everything in detail, follow along to get a nifty app to store your photos."
+description: "Today we will be building a simple Ruby on Rails application that allows you to store photos in Albums that you create. First things first, this article assumes you have basic knowledge of the Ruby language and that you are familiar with rails, follow along to get a nifty app to store your photos."
 image: 
     url: "https://blog.carbonfive.com/wp-content/uploads/2021/10/Matt-Brictson-Interview-Ruby-on-Rails.png"
     alt: "carey."
