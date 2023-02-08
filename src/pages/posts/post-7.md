@@ -5,8 +5,8 @@ pubDate: 2023-02-08
 description: 'CSS Psuedo classes and use cases '
 author: 'Joseph Reilly'
 image:
-    url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fhtml-css&psig=AOvVaw2_WIuUT5ROqtoeMH52yaZW&ust=1675972348456000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDust7Zhv0CFQAAAAAdAAAAABAD' 
-    alt: 'AI and Workouts'
+    url: 'https://media.istockphoto.com/id/1226444511/vector/mobile-website-development-technology-conceptual-illustration-design-of-internet-pages-of.jpg?s=612x612&w=0&k=20&c=pygvwNzpyOHXIQtJsD_fFY2S0Trylw_hy9Kq-MVRdUo=' 
+    alt: 'CSS Psuedo classes'
 tags: ["css"," development"]
 ---
 # CSS Pseudo-classes
