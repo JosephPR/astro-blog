@@ -5,7 +5,7 @@ pubDate: 2023-02-08
 description: 'CSS Psuedo classes and use cases '
 author: 'Joseph Reilly'
 image:
-    url: 'https://scoutlife.org/wp-content/uploads/2017/03/chess-1.jpg' 
+    url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fhtml-css&psig=AOvVaw2_WIuUT5ROqtoeMH52yaZW&ust=1675972348456000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJDust7Zhv0CFQAAAAAdAAAAABAD' 
     alt: 'AI and Workouts'
 tags: ["css"," development"]
 ---
