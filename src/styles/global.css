@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 :root {
-  --primary: #541b6c;
+  --primary: #111978;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
    
     margin: 0 auto;
     width: 100%;
-    max-width: 99ch;
+    max-width: 120ch;
     padding: 2rem;
     line-height: 1.5;
   }
