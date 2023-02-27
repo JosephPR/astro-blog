@@ -15,14 +15,18 @@ html {
    
     margin: 0 auto;
     width: 100%;
-    max-width: 120ch;
+    max-width: 110ch;
     padding: 2rem;
-    line-height: 1.5;
+    line-height: 1.7;
+    
   }
   
   * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
   }
+
   h1,h2,h3,h4,h5{
     font-family: 'Open Sans', sans-serif;
   }
@@ -46,8 +50,15 @@ a {
   color: var(--primary);
   text-decoration: none;
   display: inherit;
+}
+.posts{
+max-width:90ch;
+margin:auto;
 
-
+}
+.posts p{
+  font-size:1.3rem;
+  padding-bottom:1rem;
 }
 
 .tags {
