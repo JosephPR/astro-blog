@@ -1,0 +1,28 @@
+---
+const { image, title, desc, url } = Astro.props;
+
+---
+  
+<div class="card">
+    <div class="card__image">
+      <img src={image} alt="image of a person" />
+    </div>
+    <div class="card__content">
+      <h3 class="card__title">{title}</h3>
+      <p class="card__description">{desc}</p>
+      <a class="btn-outline card__button" href={url}>View Project</a>
+    </div>
+    </div>
+
+    <style>
+        .card{
+            position:relative;
+            min-height: 27rem;
+        }
+     
+        .card a{
+            position:absolute;
+            bottom:0;
+
+        }
+    </style>

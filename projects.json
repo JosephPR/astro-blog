@@ -1,0 +1,21 @@
+    [
+        
+        {
+            "image": "starter-kit.png",
+            "title": "CRA Starter Kit",
+            "description": "A walkthough of how to set up a Create React App project with Firebase and React Router. Rails backend for Guest log.",
+            "link": "https://joes-react-starter-kit.firebaseapp.com/"
+        },
+        {
+            "image": "diddly.png",
+            "title": "My Song Diddly's",
+            "description": "A Place for me to store recordings of my guitar diddly's.",
+            "link": "https://mysongsonaloop.web.app/"
+        },
+        {
+            "image": "chess-mastery.png",
+            "title": "Chess Mastery Journey",
+            "description": "This project is a place for me to document my journey to mastery of chess.",
+            "link": "https://chessbeginnertomaster.firebaseapp.com/"
+        }
+    ]

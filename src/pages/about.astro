@@ -5,17 +5,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "About Me";
 
 const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
+  firstName: "Joseph",
+  country: "USA",
+  occupation: "Web Developer",
+  hobbies: ["photography", "snowboarding", "chess"],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-
-const happy = true;
-const finished = true;
-const goal = 3;
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Hubspot"];
 
 const skillColor = "#4036c7";
 const fontWeight = "bold"
@@ -35,22 +31,21 @@ const textTransform = "uppercase"
         }
       </style>
 
-      
-    <h2>... and my new Astro site!</h2>
-      
-    <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
-  
-    <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+<section id="about-me">
+  <h2>About Me</h2>
+  <p>   I'm a passionate Web developer with 3+ years of experience. In my previous roles, I've worked on projects ranging from small, single-page applications to large-scale enterprise solutions. 
+    I'm dedicated to creating high-quality, responsive web applications and solving complex programming challenges.
+    My technical skills include proficiency in Javascript, HTML, CSS and Hubspot.
+    Aside from programming, I enjoy  snowboarding, hiking, camping, guitar playing, archery and disc golf. These hobbies keep me energized and help me approach my work with a fresh perspective.
+    I'm also committed to staying up-to-date with the latest industry trends and techniques to ensure that I'm always delivering cutting-edge solutions.
+    If you're interested in learning more about my experience and how I can help bring your ideas to life, don't hesitate to reach out to me. I'm always looking for exciting new opportunities to grow and learn as a developer.
+    
+    
+    
+</p>
+</section>
 
-    <p>Here are a few facts about me:</p>
-
-    {happy && <p>I am happy to be learning Astro!</p>}
-
-{finished && <p>I finished this tutorial!</p>}
-
-{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
-
-<ul>
+<!-- <ul>
 <li>My name is {identity.firstName}.</li>
 <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
 {identity.hobbies.length >= 2 && 
@@ -60,5 +55,5 @@ const textTransform = "uppercase"
 <p>My skills are:</p>
 <ul>
 {skills.map((skill) => <li class="skill">{skill}</li>)}
-</ul>
+</ul> -->
 </BaseLayout>

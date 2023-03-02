@@ -1,38 +1,75 @@
 ---
 import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
-const allPosts = await Astro.glob('../pages/posts/*.md');
+import Projects from '../../projects.json'
+import ProjectCard from '../components/ProjectCard.astro';
+const allPosts = await Astro.glob('../pages/blog/*.md');
+const slicedArray = allPosts.slice(0, 2);
 import BlogPost from '../components/BlogPost.astro';
-const pageTitle = "Blog Listings";
+const pageTitle = "Home Page";
+
+//  const projectData = await fetch(Projects)
+//   .then((response) => response.json())
+//   .then((data) => console.log(data))
+//   .catch((error) => console.log("Error fetching data", error));
+//   console.log(projectData);
 ---
 <BaseLayout pageTitle={pageTitle}>
-        <div class="posts-container">
-          {allPosts.map((post) => 
-          <BlogPost url={post.url} image={post.frontmatter.image.url} description={post.frontmatter.description.substring(0, 300)} title={post.frontmatter.title} author={post.frontmatter.author} pubDate={post.frontmatter.pubDate.slice(0,10)} />)}
-        </div>
+  <section class="hero">
+<div>
+  <span class="hero__eyebrow">Hi, my name is</span>
+  <h3 class="hero__name">Joseph Reilly</h3>
+  <span class="hero__subtitle">I build things for the web</span>
+  <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences.</p>
+  <a class="btn hero__button" href="#">Check this out</a>
+  <a class="btn-outline hero__button" href="#">Github</a>
+</div>
+
+  </section>
+  <h2>Projects</h2>
+  <section id="projects">
+  
+ { Projects.map((project) => <ProjectCard image={project.image} title={project.title} desc={project.description}/>) }
+    
+  </section>
+  <!-- <section id="contact">
+    <div>
+      <h2>Contact Information</h2>
+      <a href = "mailto:reilly4181@gmail.com"  class="email">Email Me</a>
+    </div>
+    <div>   
+      <h2>A Call to Action</h2>
+      <a href="" class="btn cta"> Contact Me </a>
+    </div>
+
+  </section> -->
+
+  <section id="blog-posts">
+    <h2>Recent Blog Posts</h2>
+    <div class="posts-container">
+      {
+      slicedArray.map((post) => 
+      <BlogPost url={post.url} image={post.frontmatter.image.url} title={post.frontmatter.title} author={post.frontmatter.author} pubDate={post.frontmatter.pubDate.slice(0,10)} />)
+      }
+    </div>
+    <a href="/blog" class="posts">See more posts</a>
+  </section>
+
+
 </BaseLayout>
 <style>
-  a {
-    color: #6520aa;
+  #projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:1rem
   }
 
-  .tags {
-    display: flex; 
-    flex-wrap: wrap; 
-    margin: 0 auto;  
-  }
+.hero__name{
+font-size: 3.2rem;
 
-  .tag {
-    margin: 0.25em;
-    border: dotted 1px #a1a1a1;
-    border-radius: .5em;
-    padding: .5em .8em;
-    font-size: 1.15em;
-    background-color: #e5e5e6;
-  }
-  
-  .tag:hover{
-        background-color: #d6c6e4;
+}
+.posts{
+  text-align: right;
+}
 
-    }
 </style>
