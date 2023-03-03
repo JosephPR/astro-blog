@@ -19,32 +19,44 @@ const textTransform = "uppercase"
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <style define:vars={{skillColor, fontWeight, textTransform}}>
-        h1 {
-          color: #2a293c;
-          font-size: 4rem;
-        }
-        .skill {
-            color: var(--skillColor);
-            font-weight: var(--fontWeight);
-            text-transform: var(--textTransform);
-        }
-      </style>
 
 <section id="about-me">
-  <h2>About Me</h2>
-  <p>   I'm a passionate Web developer with 3+ years of experience. In my previous roles, I've worked on projects ranging from small, single-page applications to large-scale enterprise solutions. 
-    I'm dedicated to creating high-quality, responsive web applications and solving complex programming challenges.
-    My technical skills include proficiency in Javascript, HTML, CSS and Hubspot.
-    Aside from programming, I enjoy  snowboarding, hiking, camping, guitar playing, archery and disc golf. These hobbies keep me energized and help me approach my work with a fresh perspective.
-    I'm also committed to staying up-to-date with the latest industry trends and techniques to ensure that I'm always delivering cutting-edge solutions.
-    If you're interested in learning more about my experience and how I can help bring your ideas to life, don't hesitate to reach out to me. I'm always looking for exciting new opportunities to grow and learn as a developer.
-    
-    
-    
-</p>
-</section>
+  <img  data-aos="fade-right" src="../../public/profile-pic.jpg" alt="Joseph's profile picture" />
 
+  <div  data-aos="fade-left" class="about-me-content">
+    <h2>About Me</h2>
+    <p>   I'm a passionate Web developer with 3+ years of experience. In my previous roles, I've worked on projects ranging from small, single-page applications to large-scale enterprise solutions. 
+      I'm dedicated to creating high-quality, responsive web applications and solving complex programming challenges.
+      My technical skills include proficiency in Javascript, HTML, CSS and Hubspot.
+      Aside from programming, I enjoy  snowboarding, hiking, camping, guitar playing, archery and disc golf. These hobbies keep me energized and help me approach my work with a fresh perspective.
+      I'm also committed to staying up-to-date with the latest industry trends and techniques to ensure that I'm always delivering cutting-edge solutions.
+      If you're interested in learning more about my experience and how I can help bring your ideas to life, don't hesitate to reach out to me. I'm always looking for exciting new opportunities to grow and learn as a developer.
+  </p>
+  </div>
+</section>
+<style>
+  #about-me {
+    display: flex;
+    flex-wrap:wrap;
+   align-items: center;
+
+  }
+
+  #about-me img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 2rem;
+    
+  }
+  .about-me-content {
+    margin: 2rem;
+    flex: 1 1 50%;
+  }
+
+
+</style>
 <!-- <ul>
 <li>My name is {identity.firstName}.</li>
 <li>I live in {identity.country} and I work as a {identity.occupation}.</li>

@@ -3,8 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 :root {
-  --primary: #000000;
-  --secondary: #133086;
+/* CSS HEX */
+--platinum: #e6e8e6ff;
+--timberwolf: #ced0ceff;
+--ash-gray: #9fb8adff;
+--feldgrau: #475841ff;
+--onyx: #3f403fff;
 }
 *, *::before, *::after {
   box-sizing: border-box;
@@ -17,27 +21,30 @@ html, body {
 
 html {
     scroll-behavior: smooth;
+color:var(--onyx)
   }
   body {
     margin: 0 auto;
     width: 100%;
-    max-width: 110ch;
+    max-width: 1200px;
     padding: 2rem;
     -webkit-font-smoothing: antialiased;
     line-height: 1.7;
-font-family: "Roboto", sans-serif;    
+font-family: "Roboto", sans-serif; 
   }
-  section{
+
+  section {
     padding:2rem 1rem;
   }
+
 
   h1,h2,h3,h4,h5{
     font-family: 'Open Sans', sans-serif;
   }
   
   h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: clamp(1.5rem, 11vw, 4.2rem);
   }
   p{
 padding:1rem 0;
@@ -46,6 +53,7 @@ padding:1rem 0;
 span{
   font-style: italic;
   color:rgb(121, 121, 121);
+  font-size: 20px;
 }
 img{
   display: block;
@@ -54,15 +62,15 @@ max-width: 100%;
 margin-bottom:2rem;
 }
 a {
-  color: var(--secondary);
+  color: var(--onyx);
   text-decoration: none;
   display: inherit;
 }
 .btn{ 
   display: inline-block;
-    background: var(--primary);
+    background: var(--feldgrau);
     color: #fff;
-    border:2px solid var(--primary);
+    border:2px solid var(--feldgrau);
     border-radius: 8px;
     padding: .5rem 1.5rem;
     margin-top: 1rem;
@@ -77,14 +85,14 @@ a {
   display: inline-block;
     background: #fff;
     color: #000;
-    border:2px solid var(--primary);
+    border:2px solid var(--feldgrau);
     border-radius: 8px;
     padding: .5rem 1.5rem;
     margin-top: 1rem;
 }
 .btn-outline:hover{
   color:#fff;
-  background-color: var(--primary);
+  background-color: var(--feldgrau);
   transition: .3s;
   
 }
@@ -116,7 +124,7 @@ margin:auto;
   border-radius: .5em;
   padding: .3em .8em;
   font-size: 1.15em;
-  background-color: #e5e5e6;
+  background-color: var(--timberwolf);
 }
 
 .tag:hover{
@@ -141,7 +149,7 @@ margin:auto;
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: var(--primary);
+    background-color: var(--onyx);
   }
 
 .nav-links {
@@ -196,7 +204,6 @@ gap:2rem;
   
   @media screen and (min-width: 636px) {
     .nav-links {
-      margin-left: 5em;
       display: block;
       position: static;
       width: auto;
@@ -218,9 +225,13 @@ gap:2rem;
     color: rgb(216, 212, 212);
     transition:.2s;
   }
+
+  .dark body{
+    background-color: unset;
+  }
   
   .dark .nav-links a {
-    color: #fff;
+    color: var(--timberwolf);
   }
   .dark .post{
     background-color: #f2f2f2;
