@@ -108,7 +108,7 @@ max-width:90ch;
 margin:auto;
 
 }
-.posts p{
+.posts p, .hero p, .about p{
   font-size:1.3rem;
   padding-bottom:1rem;
 }
