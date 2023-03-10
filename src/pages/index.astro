@@ -29,7 +29,7 @@ const pageTitle = "Home Page";
   </section>
   
   <section id="projects">
-    <h2 data-aos="fade-right" data-aos-anchor-placement="top-center">Projects</h2>
+    <h2 data-aos="fade-right">Projects</h2>
 <div class="projects-container">
   { Projects.map((project) => <ProjectCard image={project.image} title={project.title} desc={project.description} link={project.link}/>) }
 
@@ -70,6 +70,7 @@ const pageTitle = "Home Page";
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap:2rem;
+    margin:1rem 0;
   }
   .hero{;
     margin-bottom: 2rem;
@@ -78,5 +79,8 @@ const pageTitle = "Home Page";
   text-align: right;
   font-size: 1.3rem;
 }
+#blog-posts h2{
+    margin: 1rem 0;
+  }
 
 </style>

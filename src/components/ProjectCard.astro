@@ -3,7 +3,7 @@ const { image, title, desc, link } = Astro.props;
 
 ---
   
-<div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"  class="card">
+<div data-aos="fade-up"  class="card">
     <div class="card__image">
       <img src={image} alt={title} />
     </div>
@@ -18,12 +18,16 @@ const { image, title, desc, link } = Astro.props;
         .card{
             position:relative;
             min-height: 27rem;
+          
     
         }
      
         .card a{
             position:absolute;
-            bottom:0;
+            bottom:10px;
 
+        }
+        .card__content{
+            padding: 0 1rem;
         }
     </style>
