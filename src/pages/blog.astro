@@ -2,13 +2,18 @@
 import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const allPosts = await Astro.glob('../pages/blog/*.md');
+const sortedByPubDate = allPosts.sort((a, b) => {
+  const aDate = new Date(a.frontmatter.pubDate);
+  const bDate = new Date(b.frontmatter.pubDate);
+  return bDate.valueOf() - aDate.valueOf();
+});
 import BlogPost from '../components/BlogPost.astro';
 const pageTitle = "Blog Listings";
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h1>{pageTitle}</h1>
         <div class="posts-container">
-          {allPosts.map((post) => 
+          {sortedByPubDate.map((post) => 
           <BlogPost url={post.url} image={post.frontmatter.image.url} description={post.frontmatter.description.substring(0, 300)} title={post.frontmatter.title} author={post.frontmatter.author} pubDate={post.frontmatter.pubDate.slice(0,10)} />)}
         </div>
 </BaseLayout>

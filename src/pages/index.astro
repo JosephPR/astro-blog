@@ -4,11 +4,17 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Projects from '../../projects.json'
 import ProjectCard from '../components/ProjectCard.astro';
 const allPosts = await Astro.glob('../pages/blog/*.md');
+
 const slicedArray = allPosts.slice(0, 2);
 import BlogPost from '../components/BlogPost.astro';
 const pageTitle = "Home Page";
+// import MySwiper from '../components/MySwiper.jsx';
+
 ---
 <BaseLayout pageTitle={pageTitle}>
+  <!-- <div class="projects-container" >
+    { Projects.map((project) => <MySwiper image={project.image} title={project.title} desc={project.description} link={project.link}/>) }
+</div> -->
   <section class="hero">
 <div>
   <span  data-aos="fade-left" class="hero__eyebrow">Hi &#128075;, my name is</span>
@@ -30,23 +36,12 @@ const pageTitle = "Home Page";
   
   <section id="projects">
     <h2 data-aos="fade-right">Projects</h2>
-<div class="projects-container">
-  { Projects.map((project) => <ProjectCard image={project.image} title={project.title} desc={project.description} link={project.link}/>) }
+<div class="projects-container" >
+  { Projects.map((project) => <ProjectCard  image={project.image} title={project.title} desc={project.description} link={project.link}/>) }
 
 </div>
     
   </section>
-  <!-- <section id="contact"> 
-    <div>
-      <h2>Contact Information</h2>
-      <a href = "mailto:reilly4181@gmail.com"  class="email">Email Me</a>
-    </div>
-    <div>   
-      <h2>A Call to Action</h2>
-      <a href="" class="btn cta"> Contact Me </a>
-    </div>
-
-  </section> -->
 
   <section id="blog-posts">
     <h2 data-aos="fade-right">Recent Blog Posts</h2>

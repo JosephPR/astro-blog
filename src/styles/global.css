@@ -44,6 +44,10 @@ font-family: "Roboto", sans-serif;
   
   h1 {
     margin-bottom: 1rem;
+    /* font-size: clamp(1.5rem, 11vw, 4.2rem); */
+  }
+ .hero h1 {
+    margin-bottom: 1rem;
     font-size: clamp(1.5rem, 11vw, 4.2rem);
   }
   p{
@@ -103,6 +107,21 @@ a {
   grid-template-rows: 1fr 2fr;
   gap:2rem;
 } */
+.card{
+  position:relative;
+  min-height: 27rem;
+
+
+}
+
+.card a{
+  position:absolute;
+  bottom:10px;
+
+}
+.card__content{
+  padding: 0 1rem;
+}
 .posts{
 max-width:90ch;
 margin:auto;
