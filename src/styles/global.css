@@ -131,7 +131,12 @@ margin:auto;
   font-size:1.3rem;
   padding-bottom:1rem;
 }
-
+.posts a {
+  color: darkorange;
+}
+.posts a:hover {
+  color: rgb(252, 178, 88);
+}
 .tags {
   display: flex; 
   flex-wrap: wrap; 
