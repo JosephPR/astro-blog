@@ -3,19 +3,19 @@
         {
             "image": "recipe-finder.png",
             "title": "Recipe Finder",
-            "description": "Edemame API for finding recipe ideas by ingedient, using pure vanilla javascript.",
+            "description": "Edemame API for finding recipe ideas by ingedient, using pure vanilla javascript. Deployed using vercel",
             "link": "https://recipe-catalog-josephpr.vercel.app/"
         },
         {
             "image": "diddly.png",
             "title": "My Song Diddly's",
-            "description": "A Place for me to store recordings of my guitar diddly's.",
+            "description": "A Place for me to store recordings of my guitar diddly's. Deployed using Firebase.",
             "link": "https://mysongsonaloop.web.app/"
         },
         {
             "image": "jumpman.png",
             "title": "Jumpman 5000",
-            "description": "Simple game made using Phaser JS",
+            "description": "Simple game made using Phaser JS. Deployed using Github. ",
             "link": "https://josephpr.github.io/stargame/"
          }
         ]
