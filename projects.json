@@ -13,9 +13,8 @@
             "link": "https://mysongsonaloop.web.app/"
         },
         {
-            "image": "chess-mastery.png",
-            "title": "Chess Mastery Journey",
-            "description": "This project is a place for me to document my journey to mastery of chess.",
-            "link": "https://chessbeginnertomaster.firebaseapp.com/"
-        }
-    ]
+            "image": "jumpman.png",
+            "title": "Jumpman 5000",
+            "description": "Simple game made using Phaser JS",
+            "link": "https://josephpr.github.io/stargame/"
+         }
