@@ -1,10 +1,10 @@
     [
         
         {
-            "image": "starter-kit.png",
-            "title": "CRA Starter Kit",
-            "description": "A walkthough of how to set up a Create React App project with Firebase and React Router. Rails backend for Guest log.",
-            "link": "https://joes-react-starter-kit.firebaseapp.com/"
+            "image": "recipe-finder.png",
+            "title": "Recipe Finder",
+            "description": "Edemame API for finding recipe ideas by ingedient, using pure vanilla javascript.",
+            "link": "https://recipe-catalog-josephpr.vercel.app/"
         },
         {
             "image": "diddly.png",
