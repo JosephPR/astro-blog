@@ -3,7 +3,7 @@
         {
             "image": "recipe-finder.png",
             "title": "Recipe Finder",
-            "description": "Edemame API for finding recipe ideas by ingedient, using pure vanilla javascript. Deployed using vercel",
+            "description": "Edemame API for finding recipe ideas by ingedient, using pure vanilla javascript. Deployed using vercel.",
             "link": "https://recipe-catalog-josephpr.vercel.app/"
         },
         {
