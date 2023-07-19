@@ -25,10 +25,10 @@
             "link": "https://joes-react-starter-kit.firebaseapp.com/"
         },
         {
-            "image": "diddly.png",
-            "title": "My Song Diddly's",
-            "description": "A Place for me to store recordings of my guitar diddly's. Deployed using Firebase.",
-            "link": "https://mysongsonaloop.web.app/"
+            "image": "gpt-generator.png",
+            "title": "GPT Generator",
+            "description": "A study of promp engineering using the davinci model and dall-e image generator",
+            "link": "https://github.com/JosephPR/generators"
         },
         {
             "image": "jumpman.png",
