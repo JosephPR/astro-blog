@@ -20,7 +20,7 @@
          },
         {
             "image": "starter-kit.png",
-            "title": "Reat Starter Kit",
+            "title": "React Starter Kit",
             "description": "Built with a Ruby on Rail backend and React. Focus on initial setup and hooks.",
             "link": "https://joes-react-starter-kit.firebaseapp.com/"
         },
