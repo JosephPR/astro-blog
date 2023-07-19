@@ -7,6 +7,24 @@
             "link": "https://recipe-catalog-josephpr.vercel.app/"
         },
         {
+            "image": "trade-journal.png",
+            "title": "Trading Journal",
+            "description": "Fullstack application built with the T3 stack, Next.js,Typescript, Prisma, tRPC, and Zod.",
+            "link": "https://github.com/JosephPR/trade-journal"
+        },
+        {
+            "image": "next-template.png",
+            "title": "Next 13 Template",
+            "description": "Template setup with dynamic routes, and the new app directory.",
+            "link": "https://next13-template.vercel.app/"
+         },
+        {
+            "image": "starter-kit.png",
+            "title": "Reat Starter Kit",
+            "description": "Built with a Ruby on Rail backend and React. Focus on initial setup and hooks.",
+            "link": "https://joes-react-starter-kit.firebaseapp.com/"
+        },
+        {
             "image": "diddly.png",
             "title": "My Song Diddly's",
             "description": "A Place for me to store recordings of my guitar diddly's. Deployed using Firebase.",

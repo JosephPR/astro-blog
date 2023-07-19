@@ -227,6 +227,7 @@ gap:2rem;
 }
   
   @media screen and (min-width: 636px) {
+
     .nav-links {
       display: block;
       position: static;
@@ -241,9 +242,18 @@ gap:2rem;
     .hamburger {
         display: none;
       }
-  
   }
 
+  @media screen and (max-width: 1028px) {
+  
+.card a{
+  position:unset!important;
+
+}
+  }
+
+
+  
   .dark {
     background-color: #1d1c24;
     color: rgb(216, 212, 212);
