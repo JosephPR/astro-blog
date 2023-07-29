@@ -45,13 +45,12 @@ font-family: "Roboto", sans-serif;
   h1 {
     margin-bottom: 1rem;
     /* font-size: clamp(1.5rem, 11vw, 4.2rem); */
-  }
- .hero h1 {
     margin-bottom: 1rem;
     font-size: clamp(1.5rem, 11vw, 4.2rem);
   }
   p{
 padding:1rem 0;
+    font-size:1.3rem;
   }
 
 span{
@@ -109,14 +108,14 @@ a {
 } */
 .card{
   position:relative;
-  min-height: 27rem;
+  min-height: 30rem;
 
 
 }
 
 .card a{
   position:absolute;
-  bottom:10px;
+  bottom:0px;
 
 }
 .card__content{
@@ -127,10 +126,7 @@ max-width:90ch;
 margin:auto;
 
 }
-.posts p, .hero p, .about p{
-  font-size:1.3rem;
-  padding-bottom:1rem;
-}
+
 .posts a {
   color: darkorange;
 }
