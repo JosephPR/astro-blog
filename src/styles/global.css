@@ -106,21 +106,7 @@ a {
   grid-template-rows: 1fr 2fr;
   gap:2rem;
 } */
-.card{
-  position:relative;
-  min-height: 30rem;
 
-
-}
-
-.card a{
-  position:absolute;
-  bottom:0px;
-
-}
-.card__content{
-  padding: 0 1rem;
-}
 .posts{
 max-width:90ch;
 margin:auto;

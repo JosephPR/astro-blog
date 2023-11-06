@@ -10,7 +10,8 @@
             "image": "trade-journal.png",
             "title": "Trading Journal",
             "description": "Fullstack application built with the T3 stack, Next.js,Typescript, Prisma, tRPC, and Zod.",
-            "link": "https://github.com/JosephPR/trade-journal"
+            "link": "https://trade-space.vercel.app/",
+            "git-link": "https://github.com/JosephPR/trade-journal"
         },
         {
             "image": "next-template.png",
