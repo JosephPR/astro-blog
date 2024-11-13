@@ -15,4 +15,4 @@ const { platform, username } = Astro.props;
       transition: .2s;
     }
   </style>
-<a  href={`https://www.${platform}.com/${username}`}><i class={`fa-brands fa-${platform} social-links`}></i></a>
+<a  href={`https://www.${platform}.com/${username}`} aria-label="social-link"><i class={`fa-brands fa-${platform} social-links`}></i></a>

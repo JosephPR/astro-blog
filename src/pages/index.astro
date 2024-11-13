@@ -49,7 +49,7 @@ const pageTitle = "Home Page";
     <div class="posts-container">
       {
       slicedArray.map((post) => 
-      <BlogPost url={post.url} image={post.frontmatter.image.url} title={post.frontmatter.title} author={post.frontmatter.author} pubDate={post.frontmatter.pubDate.slice(0,10)} />)
+      <BlogPost url={post.url} image={post.frontmatter.image.url} alt={post.frontmatter.image.alt} title={post.frontmatter.title} author={post.frontmatter.author} pubDate={post.frontmatter.pubDate.slice(0,10)} />)
       }
     </div>
     <a href="/blog" class="posts">See more posts</a>

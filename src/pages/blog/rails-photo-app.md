@@ -5,7 +5,7 @@ author: Joseph Reilly
 description: "Today we will be building a simple Ruby on Rails application that allows you to store photos in Albums that you create. First things first, this article assumes you have basic knowledge of the Ruby language and that you are familiar with rails, follow along to get a nifty app to store your photos."
 image: 
     url: 'https://imageio.forbes.com/specials-images/imageserve/624c68473964746ef4844890/Metaverse--Web3-and-Blockchain-Technology-Concepts--Opened-Hand-Levitating-Virtual/960x0.jpg?format=jpg&width=960'
-    alt: "carey."
+    alt: "Image of a hand with floating items above it"
 pubDate: 2019-06-21
 tags: ["rails", "development", "blogging", "ruby"]
 ---
